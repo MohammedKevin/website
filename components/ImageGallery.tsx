@@ -2,7 +2,7 @@ interface ImageGalleryProps {
   images: string[];
 }
 
-const ImageGallery = ({ images }) => {
+const ImageGallery = ({ images }: ImageGalleryProps) => {
   return (
     <div className="image-gallery">
       <h1>Image Gallery</h1>
