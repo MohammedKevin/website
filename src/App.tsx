@@ -1,12 +1,17 @@
-import React from "react";
-import "./App.css";
+// App.tsx
 
-function App() {
+import React from "react";
+import ImageGallery from "./ImageGallery";
+import "./App.css";
+import Navbar from "./navbar";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <>
       <p>Kevins Archiv - Sachendingekonzepte ##########</p>
-    </div>
+      <Navbar></Navbar>
+    </>
   );
-}
+};
 
 export default App;

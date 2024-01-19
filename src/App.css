@@ -28,3 +28,22 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+.image-gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Change to column to stack images vertically */
+  align-items: center; /* Center the images horizontally */
+}
+
+.gallery-image {
+  margin: 10px;
+  width: auto;
+  max-height: 100%;
+}
