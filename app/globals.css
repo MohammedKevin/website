@@ -1,0 +1,44 @@
+body {
+  background: #FFC0CB
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #aaaaaa;
+  color: white;
+  padding: 20px;
+  z-index: 1; /* Set a higher z-index for the sidebar */
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2); /* Add a drop shadow to the right */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 270px; /* Set the margin equal to the width of the sidebar */
+}
+
+
+.image-gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Change to column to stack images vertically */
+  align-items: center; /* Center the images horizontally */
+}
+
+.gallery-image {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
