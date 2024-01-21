@@ -16,11 +16,6 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/bilder" style={linkStyle}>
-              Bilder
-            </a>
-          </li>
-          <li>
             <a href="/museum" style={linkStyle}>
               Museum
             </a>
