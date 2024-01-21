@@ -26,8 +26,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/notizen" style={linkStyle}>
-              Notizen
+            <a href="/konzeptbuch" style={linkStyle}>
+              Konzeptbuch
             </a>
           </li>
         </ul>

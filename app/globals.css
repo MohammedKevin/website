@@ -1,5 +1,5 @@
 body {
-  background: #FFC0CB
+  background: #ffffff
 }
 
 .app-container {
@@ -16,13 +16,15 @@ body {
   color: white;
   padding: 20px;
   z-index: 1; /* Set a higher z-index for the sidebar */
-  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2); /* Add a drop shadow to the right */
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); /* Add a drop shadow to the right */
+  border: 2px solid #353535;
+
 }
 
 .main-content {
   flex: 1;
-  padding: 20px;
-  margin-left: 270px; /* Set the margin equal to the width of the sidebar */
+  padding-left: 70px;
+  margin-left: 200px; /* Set the margin equal to the width of the sidebar */
 }
 
 
@@ -41,4 +43,27 @@ body {
   margin: 10px;
   max-width: 100%;
   height: auto;
+}
+
+.image-kind {
+  margin: 10px;
+  width: 90%;
+  height: auto;
+}
+
+.main-images {
+  text-align: left; /* Align content to the right */
+}
+
+.pink {
+  background-color: #FFC0CB;
+  z-index: 1; 
+}
+
+p {
+  font-family: 'Courier New',
+}
+
+.white-block  {
+  height: 80vh;
 }

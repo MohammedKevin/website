@@ -22,7 +22,7 @@ export default function RootLayout({
           <div className="sidebar">
             <Navbar></Navbar>
           </div>
-          <div className="main-content">{children}</div>
+          {children}
         </div>
       </body>
     </html>
