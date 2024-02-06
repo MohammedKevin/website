@@ -1,8 +1,11 @@
 import ImageGallery from "../../components/ImageGallery";
 
 export default function Museum() {
-  const images = ["museum1.jpg", "museum2.jpg", "museum3.jpg"];
-
+  const images = [
+    { title: "", path: "museum1.jpg" },
+    { title: "", path: "museum2.jpg" },
+    { title: "", path: "museum3.jpg" },
+  ];
   const pageStyles = {
     // Add other styles as needed
   };
