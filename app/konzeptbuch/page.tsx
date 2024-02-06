@@ -17,7 +17,6 @@ export default function Museum() {
     "notizen/12.jpg",
     "notizen/13.jpg",
     "notizen/14.jpg",
-    "notizen/15.jpg",
     "notizen/16.jpg",
     "notizen/17.jpg",
     "notizen/18.jpg",
@@ -26,6 +25,7 @@ export default function Museum() {
     "notizen/21.jpg",
     "notizen/22.jpg",
     "notizen/23.jpg",
+    "notizen/24.jpg",
   ];
 
   const pageStyles = {
