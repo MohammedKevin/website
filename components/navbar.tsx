@@ -30,6 +30,11 @@ const Navbar = () => {
               Konzeptbuch
             </a>
           </li>
+          <li>
+            <a href="/algorave" style={linkStyle}>
+              Algorave
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
