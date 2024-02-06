@@ -32,6 +32,29 @@ export default function Museum() {
     { title: "", path: "notizen/24.jpg" },
   ];
 
+  const images_gelb = [
+    { title: "Gelbesbuch ab 12.01", path: "notizen/gelb/2_gelb.jpg" },
+    { title: "", path: "notizen/gelb/3_gelb.jpg" },
+    { title: "", path: "notizen/gelb/4_gelb.jpg" },
+    { title: "", path: "notizen/gelb/5_gelb.jpg" },
+    { title: "", path: "notizen/gelb/6_gelb.jpg" },
+    { title: "", path: "notizen/gelb/7_gelb.jpg" },
+    { title: "", path: "notizen/gelb/8_gelb.jpg" },
+    { title: "", path: "notizen/gelb/9_gelb.jpg" },
+    { title: "", path: "notizen/gelb/10_gelb.jpg" },
+    { title: "", path: "notizen/gelb/11_gelb.jpg" },
+    { title: "", path: "notizen/gelb/12_gelb.jpg" },
+    { title: "", path: "notizen/gelb/13_gelb.jpg" },
+    { title: "", path: "notizen/gelb/14_gelb.jpg" },
+    { title: "", path: "notizen/gelb/15_gelb.jpg" },
+    { title: "", path: "notizen/gelb/16_gelb.jpg" },
+    { title: "", path: "notizen/gelb/17_gelb.jpg" },
+    { title: "", path: "notizen/gelb/18_gelb.jpg" },
+    { title: "", path: "notizen/gelb/19_gelb.jpg" },
+    { title: "", path: "notizen/gelb/20_gelb.jpg" },
+    { title: "", path: "notizen/gelb/21_gelb.jpg" },
+  ];
+
   const pageStyles = {
     // Add other styles as needed
   };
@@ -51,7 +74,7 @@ export default function Museum() {
           angefangen habe, ein Notizbuch zu führen, um mich besser an Dinge
           erinnern zu können.
         </p>
-        <ImageGallery images={images}></ImageGallery>
+        <ImageGallery images={[...images, ...images_gelb]}></ImageGallery>
       </div>
     </>
   );
