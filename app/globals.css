@@ -7,7 +7,7 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 20vw;
   height: 100vh;
   position: fixed;
   left: 0;
@@ -24,7 +24,7 @@ body {
 .main-content {
   flex: 1;
   padding-left: 70px;
-  margin-left: 200px; /* Set the margin equal to the width of the sidebar */
+  margin-left: 20vw; /* Set the margin equal to the width of the sidebar */
 }
 
 
@@ -41,7 +41,7 @@ body {
 
 .gallery-image {
   margin: 10px;
-  max-width: 60vw;
+  max-width: 70%;
   height: auto;
 }
 
