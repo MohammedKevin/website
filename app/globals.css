@@ -6,6 +6,10 @@ body {
   display: flex;
 }
 
+ul {
+  padding-left: 2vw;
+}
+
 .sidebar {
   width: 20vw;
   height: 100vh;
@@ -14,7 +18,7 @@ body {
   top: 0;
   background-color: #aaaaaa;
   color: white;
-  padding: 20px;
+  padding: "2vw";
   z-index: 1; /* Set a higher z-index for the sidebar */
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); /* Add a drop shadow to the right */
   border: 2px solid #353535;
