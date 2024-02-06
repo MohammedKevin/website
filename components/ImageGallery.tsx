@@ -17,7 +17,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
               alt={`Image ${index + 1}`}
               className="gallery-image"
             />
-            <p>{image.title}</p>
+            <p style={{ paddingBottom: 150 }}>{image.title}</p>
           </>
         ))}
       </div>
