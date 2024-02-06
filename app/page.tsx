@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="main-content">
-        <p>Kunst Archiv - Sachendingekonzepte ##########</p>
+        <p>Kunst Archiv - Sachendingekonzepte ########## WORK IN PROGRESS</p>
         <div className="white-block"></div>
 
         <p style={{ textAlign: "right", marginRight: "10vw" }}>
