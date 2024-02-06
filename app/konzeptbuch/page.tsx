@@ -33,7 +33,7 @@ export default function Museum() {
   ];
 
   const images_gelb = [
-    { title: "Gelbesbuch ab 12.01", path: "notizen/gelb/2_gelb.jpg" },
+    { title: "Gelbes Buch ab 12.01", path: "notizen/gelb/2_gelb.jpg" },
     { title: "", path: "notizen/gelb/3_gelb.jpg" },
     { title: "", path: "notizen/gelb/4_gelb.jpg" },
     { title: "", path: "notizen/gelb/5_gelb.jpg" },
