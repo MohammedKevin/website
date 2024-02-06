@@ -13,7 +13,9 @@ export default function Bilder() {
       <div className="main-content" style={pageStyles}>
         <p>Kevins Archiv - Sachendingekonzepte ##########</p>
         <p>Bilder</p>
-        <ImageGallery images={images}></ImageGallery>
+        <a href={"https://www.instagram.com/sachendingekonzepte/"}>
+          https://www.instagram.com/sachendingekonzepte/
+        </a>
       </div>
     </>
   );
