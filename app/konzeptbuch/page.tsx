@@ -36,7 +36,17 @@ export default function Museum() {
     <>
       <div className="main-content" style={pageStyles}>
         <p>Kevins Archiv - Sachendingekonzepte ##########</p>
-        <p>Konzeptbuch</p>
+        <h3>konzeptbuch 06-12 2023 </h3>
+        <h5>auszüge meines privaten notizbuchs</h5>
+        <p>
+          Ich kann mir Dinge nur abstrakt vorstellen. Dieser Fakt hat mich lange
+          dazu gebracht, jeglichen Bezug zu Kunst generell einmal abzuwenden und
+          zu denken, ich könnte sowas nie. Jedoch entdeckte ich immer mehr
+          kreative Aspekte in Dingen aus der Informatik und Technik. Ich kann
+          mir fast nichts visual vorstellen, nicht mal Farben. Weswegen ich 2023
+          angefangen habe, ein Notizbuch zu führen, um mich besser an Dinge
+          erinnern zu können.
+        </p>
         <ImageGallery images={images}></ImageGallery>
       </div>
     </>
