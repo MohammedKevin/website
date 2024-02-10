@@ -23,7 +23,6 @@ ul {
   z-index: 1; /* Set a higher z-index for the sidebar */
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); /* Add a drop shadow to the right */
   border: 2px solid #353535;
-
 }
 
 .main-content {
@@ -72,3 +71,5 @@ p {
 .white-block  {
   height: 80vh;
 }
+
+

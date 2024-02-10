@@ -1,3 +1,6 @@
+"use client";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 export default function Home() {
   return (
     <>
@@ -10,6 +13,11 @@ export default function Home() {
         <p style={{ textAlign: "right", marginRight: "10vw" }}>
           mohammed kevin
         </p>
+
+        <Popup trigger={<button> Hallo</button>} position="right center">
+          <div className="modal"></div>
+          <div>du mausi!!</div>
+        </Popup>
 
         <div className="main-images">
           <img src={`/images/kind.png`} alt={`Kind`} className="image-kind" />
