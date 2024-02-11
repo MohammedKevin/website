@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   description: "art",
 };
 
+export const viewport = {
+  width: '1280',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
