@@ -7,7 +7,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav style={{ marginTop: "30px" }}>
       <div>
         <ul>
           <li>
