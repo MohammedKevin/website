@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export const viewport = {
   width: '1280',
-  initialScale: 0.1,
+  initialScale: 0.2,
   maximumScale: 1,
   userScalable: false,
   // Also supported by less commonly used
