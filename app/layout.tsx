@@ -19,6 +19,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+      <meta name="viewport" content="width=1280, initial-scale=1" />
+      </head>
       <body className={inter.className}>
         <div className="topbar">
           <div className="marquee">
