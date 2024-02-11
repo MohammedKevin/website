@@ -14,7 +14,7 @@ export const viewport = {
   width: '1280',
   initialScale: 0.2,
   maximumScale: 1,
-  userScalable: false,
+  userScalable: true,
   // Also supported by less commonly used
   // interactiveWidget: 'resizes-visual',
 }
