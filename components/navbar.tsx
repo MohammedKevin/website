@@ -7,31 +7,35 @@ const Navbar = () => {
     fontSize: "35px",
   };
 
+  const liStyle = {
+    paddingBottom: "80px",
+  };
+
   return (
-    <nav style={{ marginTop: "30px" }}>
-      <div>
+    <nav>
+      <div style={{ marginTop: "100px" }}>
         <ul>
-          <li>
+          <li style={liStyle}>
             <a href="/" style={linkStyle}>
               Home
             </a>
           </li>
-          <li>
+          <li style={liStyle}>
             <a href="/bilder" style={linkStyle}>
               Bilder
             </a>
           </li>
-          <li>
+          <li style={liStyle}>
             <a href="/museum" style={linkStyle}>
               Museum
             </a>
           </li>
-          <li>
+          <li style={liStyle}>
             <a href="/konzeptbuch" style={linkStyle}>
               Konzeptbuch
             </a>
           </li>
-          <li>
+          <li style={liStyle}>
             <a href="/algorave" style={linkStyle}>
               Algorave
             </a>

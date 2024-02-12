@@ -11,13 +11,13 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  width: '1280',
+  width: "1280",
   initialScale: 0.2,
   maximumScale: 1,
   userScalable: true,
   // Also supported by less commonly used
   // interactiveWidget: 'resizes-visual',
-}
+};
 
 export default function RootLayout({
   children,
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta name="viewport" content="width=1280, initial-scale=1" />
+        <meta name="viewport" content="width=1280, initial-scale=1" />
       </head>
       <body className={inter.className}>
         <div className="topbar">
@@ -42,7 +42,13 @@ export default function RootLayout({
               küss mich auf die stirn wenn ich im sarg lieg
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; blumen
               blumen ganz viele blumen
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heute abend
+              wird es regnen
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              idealizazion devaluation
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; blau
+              schimmerndes grau, moschus, beschlagenes fenster, ich find dich
+              auch hübsch
             </h1>
           </div>
         </div>
