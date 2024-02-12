@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   description: "art",
 };
 
+export const viewport = {
+  width: '1280',
+  initialScale: 0.2,
+  maximumScale: 1,
+  userScalable: true,
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,6 +28,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+      <meta name="viewport" content="width=1280, initial-scale=1" />
+      </head>
       <body className={inter.className}>
         <div className="topbar">
           <div className="marquee">
