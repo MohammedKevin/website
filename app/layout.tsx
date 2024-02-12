@@ -34,7 +34,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="topbar">
           <div className="marquee">
-            <h1>
+            <h1
+              style={{
+                display: "inline-block",
+              }}
+            >
               selbstbewusstsein sollt von selbstliebe kommen nicht von
               gleichgültigkeit
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vergiss
