@@ -33,12 +33,6 @@ export default function RootLayout({
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </h1>
           </div>
-          <div className="gif-row">
-            <img src={gif} alt="GIF" />
-            <img src={gif} alt="GIF" />
-            <img src={gif} alt="GIF" />
-            {/* Add more <img> elements as needed */}
-          </div>
         </div>
         <div className="app-container">
           <div className="sidebar">
