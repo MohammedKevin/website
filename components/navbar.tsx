@@ -4,8 +4,7 @@ const Navbar = () => {
   const linkStyle = {
     color: "black", // Set the desired text color
     textDecoration: "none", // Remove underline
-    fontSize: '35px',
-    paddingTop: '100px',
+    fontSize: "35px",
   };
 
   return (
